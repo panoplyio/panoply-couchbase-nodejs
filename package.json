@@ -1,0 +1,23 @@
+{
+  "name": "panoply-couchbase",
+  "version": "2.1.3",
+  "description": "This is a simple wrapper for the Couchbase NodeJS SDK with the added benefit of libcouchbase being compiled with SSL Support",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "./bin/preinstall.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "couchbase": "2.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panoplyio/panoply-couchbase-nodejs.git"
+  },
+  "author": "Panoply",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panoplyio/panoply-couchbase-nodejs/issues"
+  },
+  "homepage": "https://github.com/panoplyio/panoply-couchbase-nodejs#readme"
+}
