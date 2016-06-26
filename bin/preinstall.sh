@@ -20,7 +20,7 @@ done
 if [[ ! -d "$CWD/deps/libcouchbase" ]]; then
     mkdir -p "$CWD/deps"
     echo "Cloning libcouchbase from github"
-    git clone git://github.com/couchbase/libcouchbase.git ./deps/libcouchbase >/dev/null 2>&1
+    git clone --depth 1 git://github.com/couchbase/libcouchbase.git ./deps/libcouchbase >/dev/null 2>&1
 else
     echo "libcouchbase directory already exists. Skipping git clone"
 fi
