@@ -1,6 +1,6 @@
 {
   "name": "panoply-couchbase",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "This is a simple wrapper for the Couchbase NodeJS SDK with the added benefit of libcouchbase being compiled with SSL Support",
   "main": "index.js",
   "scripts": {
